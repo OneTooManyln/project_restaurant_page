@@ -31,6 +31,16 @@ const home = function () {
   const aboutLink = document.createElement("li");
   aboutLink.innerText = "ABOUT";
   pageLinks.appendChild(aboutLink);
+
+  // Add mainContent container
+  const mainContent = document.createElement("div");
+  mainContent.classList.add("main-content");
+  homeContent.appendChild(mainContent);
+
+  //Add h1 to mainContent
+  const title = document.createElement("h1");
+  title.innerText = "TRES LECHES PANADERIA";
+  mainContent.appendChild(title);
 };
 
 export default home;

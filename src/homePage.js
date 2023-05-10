@@ -1,9 +1,9 @@
 const home = function () {
   const content = document.querySelector("#content");
 
-  const mainContent = document.createElement("div");
-  mainContent.classList.add("home-main-content");
-  content.appendChild(mainContent);
+  const homeContent = document.createElement("div");
+  homeContent.classList.add("home-content");
+  content.appendChild(homeContent);
 
   // Add background image to content class
   content.style.backgroundImage = "url(../img/pinar-kucuk-unsplash.jpg)";
@@ -11,7 +11,7 @@ const home = function () {
   // Add header
   const header = document.createElement("div");
   header.classList.add("header");
-  mainContent.appendChild(header);
+  homeContent.appendChild(header);
 
   // Add list for links to pages
   const pageLinks = document.createElement("ul");

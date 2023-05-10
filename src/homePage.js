@@ -19,14 +19,17 @@ const home = function () {
 
   // Add home page link
   const homeLink = document.createElement("li");
+  homeLink.innerText = "HOME";
   pageLinks.appendChild(homeLink);
 
   // Add menu page link
   const menuLink = document.createElement("li");
+  menuLink.innerText = "MENU";
   pageLinks.appendChild(menuLink);
 
   // Add menu page link
   const aboutLink = document.createElement("li");
+  aboutLink.innerText = "ABOUT";
   pageLinks.appendChild(aboutLink);
 };
 

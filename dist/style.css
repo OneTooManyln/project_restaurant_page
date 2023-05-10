@@ -19,9 +19,11 @@ body {
 
 .header {
   display: flex;
+  background-color: white;
   justify-content: center;
   align-items: center;
   padding: 20px;
+  max-height: 51px;
 }
 
 ul {
@@ -30,4 +32,8 @@ ul {
   padding: 0;
   gap: 20px;
   list-style-type: none;
+}
+
+li:hover {
+  border-bottom: 1px solid black;
 }

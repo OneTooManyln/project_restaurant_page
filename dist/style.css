@@ -24,6 +24,12 @@ body {
   flex-direction: column;
 }
 
+.main-content {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
 .header {
   display: flex;
   background-color: white;

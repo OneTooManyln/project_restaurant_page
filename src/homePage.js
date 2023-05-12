@@ -5,9 +5,6 @@ const home = function () {
   homeContent.classList.add("home-content");
   content.appendChild(homeContent);
 
-  // Add background image to content class
-  content.style.backgroundImage = "url(../img/pinar-kucuk-unsplash.jpg)";
-
   // Add header
   const header = document.createElement("div");
   header.classList.add("header");

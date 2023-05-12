@@ -16,7 +16,9 @@ const menu = function () {
   menuCards.classList.add("menu-cards");
   menuContent.appendChild(menuCards);
 
-  for (let i = 0; i < 3; i++) {
+  const idName = ["img-1", "img-2", "img-3", "img-4"];
+
+  for (let i = 0; i < idName.length; i++) {
     console.log("this works too");
     const menuCard = document.createElement("div");
     menuCard.classList.add("menu-card");
@@ -25,6 +27,7 @@ const menu = function () {
     // Add class for img
     const cardImg = document.createElement("div");
     cardImg.classList.add("card-image");
+    cardImg.setAttribute("id", idName[i]);
     menuCard.appendChild(cardImg);
   }
 };

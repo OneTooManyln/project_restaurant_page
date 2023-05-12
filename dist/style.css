@@ -83,6 +83,13 @@ li:hover {
   color: black;
 }
 
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 450px;
+}
+
 #img-1 {
   background-image: url(../img/IMG_04.jpg);
 }

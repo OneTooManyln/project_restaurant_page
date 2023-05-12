@@ -21,6 +21,11 @@ const menu = function () {
     const menuCard = document.createElement("div");
     menuCard.classList.add("menu-card");
     menuCards.appendChild(menuCard);
+
+    // Add class for img
+    const cardImg = document.createElement("div");
+    cardImg.classList.add("card-image");
+    menuCard.appendChild(cardImg);
   }
 };
 

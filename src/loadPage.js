@@ -1,9 +1,11 @@
 import renderHeader from "./headerPage";
 import home from "./homePage";
+import menu from "./menuPage";
 
 const loadPage = function () {
   renderHeader();
-  home();
+  /* home(); */
+  menu();
 };
 
 export default loadPage;

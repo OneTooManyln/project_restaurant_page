@@ -1,10 +1,5 @@
-import renderHeader from "./headerPage";
-
 const home = function () {
   const content = document.querySelector("#content");
-
-  // Add header
-  renderHeader();
 
   const homeContent = document.createElement("div");
   homeContent.classList.add("home-content");

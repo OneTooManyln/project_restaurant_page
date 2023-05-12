@@ -40,6 +40,21 @@ body {
   max-height: 51px;
 }
 
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-content {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: white;
+  padding: 20px;
+  width: 70%;
+  margin: 20px;
+}
+
 ul {
   display: flex;
   align-items: center;

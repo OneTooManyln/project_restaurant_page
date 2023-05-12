@@ -11,7 +11,7 @@ const menu = function () {
   menuContent.classList.add("menu-content");
   contentContainer.appendChild(menuContent);
 
-  // Add img container
+  // Add card container
   const menuCards = document.createElement("div");
   menuCards.classList.add("menu-cards");
   menuContent.appendChild(menuCards);
@@ -23,6 +23,9 @@ const menu = function () {
     const menuCard = document.createElement("div");
     menuCard.classList.add("menu-card");
     menuCards.appendChild(menuCard);
+
+    // Add dummy text to cards
+    menuCard.innerHTML = `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit massa quis quam ultricies.</p>`;
 
     // Add class for img
     const cardImg = document.createElement("div");

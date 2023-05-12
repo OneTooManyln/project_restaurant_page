@@ -72,3 +72,12 @@ li:hover {
   width: 70%;
   margin: 20px;
 }
+
+.menu-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  color: black;
+}

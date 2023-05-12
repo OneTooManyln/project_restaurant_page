@@ -12,11 +12,16 @@ const menu = function () {
   contentContainer.appendChild(menuContent);
 
   // Add img container
-  const menuCard = document.createElement("div");
-  menuCard.classList.add("menu-cards");
-  menuContent.appendChild(menuCard);
+  const menuCards = document.createElement("div");
+  menuCards.classList.add("menu-cards");
+  menuContent.appendChild(menuCards);
 
-  // img 1
+  for (let i = 0; i < 3; i++) {
+    console.log("this works too");
+    const menuCard = document.createElement("div");
+    menuCard.classList.add("menu-card");
+    menuCards.appendChild(menuCard);
+  }
 };
 
 export default menu;

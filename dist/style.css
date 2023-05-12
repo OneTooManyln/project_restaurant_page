@@ -81,3 +81,30 @@ li:hover {
   padding: 20px;
   color: black;
 }
+
+#img-1 {
+  background-image: url(../img/IMG_04.jpg);
+}
+
+#img-2 {
+  background-image: url(../img/IMG_03.jpg);
+}
+
+#img-3 {
+  background-image: url(../img/IMG_02.jpg);
+}
+
+#img-4 {
+  background-image: url(../img/IMG_01.jpg);
+}
+
+#img-1,
+#img-2,
+#img-3,
+#img-4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 200px;
+}

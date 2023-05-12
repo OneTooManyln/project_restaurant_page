@@ -18,6 +18,31 @@ body {
   background-position: center;
 }
 
+/* header styles */
+
+.header {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-height: 51px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+  list-style-type: none;
+}
+
+li:hover {
+  border-bottom: 1px solid black;
+}
+
+/* home page styles */
+
 .home-content {
   height: 100vh;
   width: 100vw;
@@ -31,14 +56,7 @@ body {
   color: white;
 }
 
-.header {
-  display: flex;
-  background-color: white;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  max-height: 51px;
-}
+/* menu page styles */
 
 .content-container {
   display: flex;
@@ -53,16 +71,4 @@ body {
   padding: 20px;
   width: 70%;
   margin: 20px;
-}
-
-ul {
-  display: flex;
-  align-items: center;
-  padding: 0;
-  gap: 20px;
-  list-style-type: none;
-}
-
-li:hover {
-  border-bottom: 1px solid black;
 }

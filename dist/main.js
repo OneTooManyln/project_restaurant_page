@@ -1,25 +1,36 @@
 (() => {
   "use strict";
-  !(function () {
+  (function () {
     const e = document.querySelector("#content"),
-      n = document.createElement("div");
-    n.classList.add("home-content"),
-      e.appendChild(n),
-      (e.style.backgroundImage = "url(../img/pinar-kucuk-unsplash.jpg)");
-    const t = document.createElement("div");
-    t.classList.add("header"), n.appendChild(t);
-    const c = document.createElement("ul");
-    t.appendChild(c);
+      t = document.createElement("div");
+    t.classList.add("header"), e.appendChild(t);
+    const n = document.createElement("ul");
+    t.appendChild(n);
     const d = document.createElement("li");
-    (d.innerText = "HOME"), c.appendChild(d);
-    const l = document.createElement("li");
-    (l.innerText = "MENU"), c.appendChild(l);
-    const a = document.createElement("li");
-    (a.innerText = "ABOUT"), c.appendChild(a);
-    const o = document.createElement("div");
-    o.classList.add("main-content"), n.appendChild(o);
-    const i = document.createElement("h1");
-    (i.innerText = "TRES LECHES PANADERIA"), o.appendChild(i);
+    (d.innerText = "HOME"), n.appendChild(d);
+    const c = document.createElement("li");
+    (c.innerText = "MENU"), n.appendChild(c);
+    const o = document.createElement("li");
+    (o.innerText = "ABOUT"), n.appendChild(o);
   })(),
+    (function () {
+      const e = document.querySelector("#content"),
+        t = document.createElement("div");
+      t.classList.add("content-container"), e.appendChild(t);
+      const n = document.createElement("div");
+      n.classList.add("menu-content"), t.appendChild(n);
+      const d = document.createElement("div");
+      d.classList.add("menu-cards"), n.appendChild(d);
+      const c = ["img-1", "img-2", "img-3", "img-4"];
+      for (let e = 0; e < c.length; e++) {
+        console.log("this works too");
+        const t = document.createElement("div");
+        t.classList.add("menu-card"), d.appendChild(t);
+        const n = document.createElement("div");
+        n.classList.add("card-image"),
+          n.setAttribute("id", c[e]),
+          t.appendChild(n);
+      }
+    })(),
     console.log("this works");
 })();

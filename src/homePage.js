@@ -1,4 +1,4 @@
-import renderHeader from "./header";
+import renderHeader from "./headerPage";
 
 const home = function () {
   const content = document.querySelector("#content");

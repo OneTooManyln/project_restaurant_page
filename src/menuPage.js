@@ -12,9 +12,11 @@ const menu = function () {
   contentContainer.appendChild(menuContent);
 
   // Add img container
-  const imgContainer = document.createElement("div");
-  imgContainer.classList.add("img-container");
-  menuContent.appendChild(imgContainer);
+  const menuCard = document.createElement("div");
+  menuCard.classList.add("menu-cards");
+  menuContent.appendChild(menuCard);
+
+  // img 1
 };
 
 export default menu;

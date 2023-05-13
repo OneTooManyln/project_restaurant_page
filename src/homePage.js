@@ -1,19 +1,19 @@
 const home = function () {
   const content = document.querySelector("#content");
 
+  const contentContainer = document.createElement("div");
+  contentContainer.classList.add("h-content-container");
+  content.appendChild(contentContainer);
+
+  // Add homeContent container
   const homeContent = document.createElement("div");
   homeContent.classList.add("home-content");
-  content.appendChild(homeContent);
+  contentContainer.appendChild(homeContent);
 
-  // Add mainContent container
-  const mainContent = document.createElement("div");
-  mainContent.classList.add("main-content");
-  homeContent.appendChild(mainContent);
-
-  //Add h1 to mainContent
+  //Add h1 to homeContent
   const title = document.createElement("h1");
   title.innerText = "TRES LECHES PANADERIA";
-  mainContent.appendChild(title);
+  homeContent.appendChild(title);
 };
 
 export default home;

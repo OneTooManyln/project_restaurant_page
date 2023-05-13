@@ -6,6 +6,11 @@ const menu = function () {
   contentContainer.classList.add("content-container");
   content.appendChild(contentContainer);
 
+  // Add menu Title
+  const menuTitle = document.createElement("h1");
+  menuTitle.innerText = "MENU";
+  contentContainer.appendChild(menuTitle);
+
   // Add menu mainContent
   const menuContent = document.createElement("div");
   menuContent.classList.add("menu-content");
@@ -18,6 +23,7 @@ const menu = function () {
 
   const idName = ["img-1", "img-2", "img-3", "img-4"];
 
+  // Loop to create card classes
   for (let i = 0; i < idName.length; i++) {
     console.log("this works too");
     const menuCard = document.createElement("div");

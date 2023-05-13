@@ -125,6 +125,11 @@ h1 {
   height: 200px;
 }
 
+/* About page styles */
+
 .a-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 1700px;
 }
